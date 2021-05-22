@@ -19,7 +19,7 @@ const renderPosts = () => {
   )
 }
 
-describe('Home page', () => {
+describe('Post page', () => {
   it('should render correctly', () => {
     renderPosts()
     expect(screen.getByText('my-new-post')).toBeInTheDocument()
